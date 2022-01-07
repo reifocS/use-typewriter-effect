@@ -22,7 +22,7 @@ function useCursor(typing) {
     return () => {
       clearInterval(id);
     };
-  }, []);
+  }, [typing]);
 
   return typing || toggler ? "|" : ""
 }
@@ -313,3 +313,4 @@ function getTypewriter(dispatch) {
 exports["default"] = useTypewriterEffect;
 exports.getTypewriter = getTypewriter;
 exports.useCursor = useCursor;
+exports.useTypewriterEffect = useTypewriterEffect;
