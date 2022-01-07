@@ -1,6 +1,6 @@
 {
   "name": "use-typewriter-effect",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "typewriter hook for react components",
   "main": "dist/index.js",
   "homepage": "https://github.com/reifocS/use-typewriter-effect#readme",
