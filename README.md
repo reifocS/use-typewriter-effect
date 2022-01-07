@@ -1,7 +1,5 @@
 # use-typewriter-effect
 
-# use-typing-effect
-
 > Highly flexible React hook for typewriting effect
 
 ## Install
