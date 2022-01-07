@@ -1,0 +1,24 @@
+{
+  "name": "use-typewriter-effect",
+  "version": "1.0.0",
+  "description": "typewriter hook for react components",
+  "main": "dist/index.js",
+  "homepage": "https://github.com/reifocS/use-typewriter-effect#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reifocS/use-typewriter-effect.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup src/index.js --file dist/index.js --format cjs",
+    "deploy": "npm run build && npm publish"
+  },
+  "keywords": [
+    "react",
+    "typewriter",
+    "type",
+    "react-hooks"
+  ],
+  "author": "",
+  "license": "ISC"
+}
