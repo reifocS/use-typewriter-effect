@@ -9,7 +9,6 @@ npm install --save use-typewriter-effect
 ```
 ## Demo
 https://vincent-escoffier.vercel.app/typewriter  
-https://vincent-escoffier.vercel.app/fable
 
 ## Basic Usage
 
