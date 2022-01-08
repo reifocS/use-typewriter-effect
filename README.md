@@ -96,6 +96,26 @@ function App() {
 
 
 ```
+## Typewriter API
+
+In order to access the typewriter API, you must first call getTypewriter and pass it the typewriter hook dispatch.  
+Rendering will start after the trigger method is called. This allows you full control of the typing animation.  
+You can use it inside a useEffect or in event handlers.
+
+### Options
+
+| Name       | Type     | Default | Description                                    |
+| ---------- | -------- | ------- | ---------------------------------------------- |
+| getTypewriter| React dispatch|      |Gives access to the typewriter API.        |
+| type        | string   | null     | Write the given string. |
+| pauseFor        | number   | null      | Pause the typing. |
+| deleteSome  | number   | null    |  Delay some characters.        |
+| deleteAll |    |     | Delete all typed characters           |
+| setLoop |  boolean  |     | If the given sequence of events should loop.           |
+| setDelay |   number | [60:120]  | Typespeed          |
+| trigger |    |     | Update typewriter state with the given sequence of events and start rendering        |
+
+
 ## License
 
 MIT
